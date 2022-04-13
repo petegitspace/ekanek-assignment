@@ -1,0 +1,27 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "description": "user api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petegitspace/ekanek-assignment.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Peter Noronha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petegitspace/ekanek-assignment/issues"
+  },
+  "homepage": "https://github.com/petegitspace/ekanek-assignment#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
