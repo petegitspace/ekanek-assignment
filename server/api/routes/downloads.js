@@ -13,6 +13,13 @@ router.post('/', (req, res, next) => {
     });
 });
 
+router.delete('/:downloadId', (req, res, next) => {
+    const id = req.params.downloadId;
+    res.status(200).json({
+        message: 'DELETE id '+ id +' request to /downloads'
+    });
+});
+
 router.post('/:downloadId', (req, res, next) => {
     const id = req.params.downloadId;
     res.status(200).json({
