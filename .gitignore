@@ -1,4 +1,29 @@
 .gitignore
 
+#SERVER
 server/node_modules/
 server/package-lock.json
+
+#CLIENT
+client/react-app/node_modules
+# dependencies
+client/react-app/node_modules
+client/react-app/.pnp
+client/react-app.pnp.js
+
+# testing
+client/react-app/coverage
+
+# production
+client/react-app/build
+
+# misc
+client/react-app/.DS_Store
+client/react-app/.env.local
+client/react-app/.env.development.local
+client/react-app/.env.test.local
+.env.production/.local
+
+client/react-app/npm-debug.log*
+client/react-app/yarn-debug.log*
+client/react-app/yarn-error.log*
